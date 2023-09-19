@@ -139,7 +139,9 @@ def vowel_letter_end(departments):
     lst = set([name['first_name'] for name in get_emp(departments) if name['last_name'][-1] in letters])
     return lst
 
+
 # для блока 3
+
 
 
 # первый блок
@@ -159,6 +161,8 @@ print(women_salary(departments))
 print(*vowel_letter_end(departments), sep = ', ')
 
 # третий блок
+
+
 
 
 
